@@ -1,0 +1,20 @@
+{
+  "my_degrees": [
+    {
+      "degree": {
+        "school": "University of Wisconsin-Eau Claire",
+        "program/major": "Multimedia and Web Design",
+        "Type": "BLS: Bachelor of Liberal Studies",
+        "Year Conferred": 2020
+      }
+    },
+    {
+      "degree": {
+        "school": "Boston University",
+        "program/major": "Computer Science",
+        "Type": "MS",
+        "Year Conferred": 2022
+      }
+    }
+  ]
+}
