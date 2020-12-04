@@ -1,3 +1,43 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#button {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  border: 3px solid #9e0000;
+  color: #9e0000;
+}
+
+#button:hover {
+  background-color: #9e0000;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#table {
+  visibility: hidden;
+  border: 1px solid #000000;
+  margin: 30px auto 0 auto;
+}
+
+table th {
+  padding: 15px;
+  background-color: #9e0000;
+  color: #FFFFFF;
+  font-size: 1.2em;
+}
+
+table td {
+  padding: 10px 15px;
+  width: 280px;
+}
+
+tr:last-child {
+  background-color: #d3d3d3;
 }
