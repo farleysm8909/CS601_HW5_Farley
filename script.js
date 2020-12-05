@@ -57,14 +57,14 @@ window.addEventListener("load", function(event) {
             }
           }
           count++; //Keep track of which object we're on
-          printDegrees(myDegrees[degree], count, count2); //recursively call to examine more objects' key-value pairs
+          printDegrees(myDegrees[degree], count); //recursively call to examine more objects' key-value pairs
         } else {
           if (count < 4) { //has to cycle past table data for second row before proceeding to else
             row2.innerHTML += `<td>${myDegrees[degree]}</td>`;
           } else {
             row3.innerHTML += `<td>${myDegrees[degree]}</td>`;
           }
-          //alert("count1: " + count + "\ncount2: " + count2 + "\nrow2.innerHTML = " + row2.innerHTML + "\nrow3.innerHTML = " + row3.innerHTML);
+          //alert("count: " + count + "\nrow2.innerHTML = " + row2.innerHTML + "\nrow3.innerHTML = " + row3.innerHTML); for debugging
         }
       }
       table.style.visibility = "visible"; //make table visible after it is populated
